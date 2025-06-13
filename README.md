@@ -9,7 +9,7 @@ A macOS Automator Quick Action that allows you to quickly extract EXIF (Exchange
 
 ## Features
 
-* **Quick Access:** Run directly from the right-click (or cmd-click) "Quick Actions" (or "Services") menu in Finder.
+* **Quick Access:** Run directly from the right-click (or ctrl-click) "Quick Actions" (or "Services") menu in Finder.
 * **Batch Processing:** Select multiple image files, and their EXIF data will be combined into one organized TextEdit window.
 * **Detailed Output:** Provides comprehensive EXIF metadata for each image.
 * **Error Handling:** Notifies you if `ExifTool` isn't installed or if no EXIF data is found.
@@ -129,7 +129,7 @@ Once `ExifTool` is installed, follow these steps to set up the Automator Quick A
 ## Usage
 
 1.  **Select Image Files:** In Finder, select one or more image files (e.g., `.jpg`, `.png`, `.tif`, etc.).
-2.  **Right-Click:** Right-click on any of the selected files.
+2.  **Right-Click:** Right-click (or ctrl-click) on any of the selected files.
 3.  **Choose "Quick Actions" (or "Services"):** In the contextual menu, hover over or click on "Quick Actions" (or "Services" on older macOS versions).
 4.  **Select Your Action:** Click on the name you gave your Quick Action (e.g., "Extract Photo Metadata").
 
